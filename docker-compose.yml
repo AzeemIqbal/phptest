@@ -22,4 +22,4 @@ services:
     volumes:
       - ./schema:/docker-entrypoint-initdb.d
     ports:
-      - "9906:3306"
+      - "3306:3306"
